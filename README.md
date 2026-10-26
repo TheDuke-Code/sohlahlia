@@ -1,2 +1,1 @@
-# sohlahlia
-Min egen webbsida
+# Sohlahlia
