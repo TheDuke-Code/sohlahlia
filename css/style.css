@@ -32,6 +32,16 @@ nav a {
     text-decoration: none;
 }
 
+/* Döljer menyn tills man trycker på hamburgarknappen */
+nav {
+    display: none;
+}
+
+/* Menyn visas när Javascript läser klassen "open" */
+nav.open {
+    display: block;
+}
+
 /* För större skärmar */
 @media (min-width: 768px) {
 
@@ -41,8 +51,15 @@ nav a {
     justify-content: space-between;
     align-items: center;
     }
+
+    /* hamburgarknappen behövs inte på större skärmar */
+    .menyknapp {
+        display: none;
+    }
+
     /* Menyns runda fält */
     nav {
+        display: block;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 50px;
         padding: 10px 40px;
