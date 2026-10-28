@@ -27,6 +27,12 @@ main img {
     border-radius: 20px;
 }
 
+/* Bilderna i odlingsguiden hamnar under texten */
+.steg img {
+    display: block;
+    margin-top: 10px;
+}
+
 /* Footer */
 footer {
     background-color: #D0A3A3;
@@ -151,5 +157,13 @@ form button {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
+    }
+
+    /* Sorterar bilderna i guiden i 3 kolumner på stora skärmar */
+    .steg {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        list-style-position: inside;
     }
 }
