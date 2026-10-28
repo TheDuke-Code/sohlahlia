@@ -20,6 +20,13 @@ main {
     margin: 20px;
 }
 
+/* Bilderna i dahlior.html */
+main img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 20px;
+}
+
 /* Footer */
 footer {
     background-color: #D0A3A3;
@@ -139,4 +146,10 @@ form button {
         gap: 60px;
     }
 
+    /* Sorterar dahliorna i 3 kolumner på stora skärmar */
+    .sorter {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
 }
