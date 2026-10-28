@@ -37,7 +37,7 @@ nav {
     display: none;
 }
 
-/* Menyn visas när Javascript läser klassen "open" */
+/* Menyn visas när Javascript lägger till klassen "open" */
 nav.open {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.7);
@@ -94,11 +94,16 @@ form button {
     padding: 10px 30px;
     font-size: 18px;
 }
+/* Felmeddelande i formuläret*/
+.felmeddelande {
+    color: #B00020;
+    margin: 5px 0 0 0;
+}
 
 /* För större skärmar */
 @media (min-width: 768px) {
 
-    /* Loggan till vänster och meny till höger*/
+    /* Loggan till vänster och meny i mitten*/
     header {
     display: flex;
     justify-content: space-between;

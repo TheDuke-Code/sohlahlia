@@ -30,17 +30,21 @@
         <p>Har du frågor om dahlior eller hur du odlar dom bäst? Skicka ett meddelande så svarar vi så snart vi kan!</p>
 
         <!-- Kontaktformuläret -->
-        <form id="kontaktformular">
+        <form id="kontaktformular" novalidate>
             <label for="namn">Namn</label>
             <input type="text" id="namn" name="namn">
+            <p class="felmeddelande" id="namnfel"></p>
 
             <label for="epost">E-post</label>
             <input type="email" id="epost" name="epost">
+            <p class="felmeddelande" id="epostfel"></p>
 
             <label for="meddelande">Meddelande</label>
             <textarea id="meddelande" name="meddelande" rows="6"></textarea>
+            <p class="felmeddelande" id="meddelandefel"></p>
 
             <button type="submit">Skicka</button>
+            <p id="tack"></p>
         </form>
     </main>
     <footer>
