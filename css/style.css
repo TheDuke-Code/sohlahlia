@@ -8,11 +8,22 @@ body {
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Lägger till en ljus ruta på all text */
+main {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
 }
 
 /* Footer */
 footer {
     background-color: #D0A3A3;
+    margin-top: auto;
 }
 
 /* Loggan i headern */
