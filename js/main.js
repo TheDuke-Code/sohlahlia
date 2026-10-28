@@ -1,4 +1,4 @@
-// Hämtar menyknappen och menyn från index.html
+// Hämtar menyknappen och menyn från sidan
 const menyknapp = document.querySelector(".menyknapp");
 const meny = document.querySelector("nav");
 
