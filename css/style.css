@@ -39,7 +39,21 @@ nav {
 
 /* Menyn visas när Javascript läser klassen "open" */
 nav.open {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* Menyknappen på mobil */
+.menyknapp {
     display: block;
+    background-color: #835A5A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
 }
 
 /* För större skärmar */
